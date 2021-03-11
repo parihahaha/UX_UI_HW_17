@@ -1,0 +1,105 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    /*font-family: 'Righteous', cursive;*/
+    font-size: 24px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+h2{
+    display: block;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+mark{
+    color: white;
+    background-color: blue;
+}
+
+section{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 24px;
+    padding: 24px;
+}
+
+button{
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 24px;
+    border-radius: 15px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+
+/*Class*/
+/*Navigation Bar*/
+.social{
+    width: 40px;
+}
+
+.navItems{
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+}
+
+/*logo*/
+.logo{
+    text-decoration:line-through;
+    font-weight: bold;
+    font-size: 24px;
+}
+/*Hero*/
+.heroImage{
+    width: 32%;
+    float: left;
+    margin-right: 24px;
+}
+
+.heroContent{
+    display: block;
+}
+
+/*skill*/
+
+.skillContent{
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+}
+
+.skillImage{
+    width: 100%;
+}
+
+/*projects*/
+.projectContent{
+    width: 48%;
+    height: 48%;
+    display: inline-block;
+}
+
+.projectImage{
+    width: 100%;
+}
